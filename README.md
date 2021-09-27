@@ -35,3 +35,8 @@ changes.
 * Please write your code in python and your written response in Word. You are welcome
 to use any open-source packages / libraries in the python ecosystem.
 * Please provide some minimal documentation on how to run your model.
+
+#### Run instructions:
+* app.py runs the dashboard server
+* run_revenue_predictions.py refreshes the figures in assets and runs the prediction model
+* create_daily_data.py resets the daily_data.csv cache if there are changes to customer_data.cvs (should not need to run this)
